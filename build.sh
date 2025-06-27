@@ -1,4 +1,4 @@
-set -D exit
+set -o exit
 
 pip install requirements.txt
 
