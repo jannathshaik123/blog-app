@@ -1,6 +1,6 @@
 set -o errexit
 
-pip install requirements.txt
+pip install -r requirements.txt
 
-pyrhon manage.py collectstatic --noinput
+pyrhon manage.py collectstatic --no-input
 python manage.py migrate
