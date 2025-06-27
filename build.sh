@@ -1,4 +1,4 @@
-set -o exit
+set -o errexit
 
 pip install requirements.txt
 
